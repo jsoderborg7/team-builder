@@ -29,6 +29,7 @@ const StyledDiv = styled.div `
 
  .team{
    border: 2px solid #72d4e8;
+   border-radius: 10px;
    width: 35%; 
    margin: 5%;
    padding: 2%;

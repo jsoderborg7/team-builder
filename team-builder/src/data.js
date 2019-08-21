@@ -1,8 +1,9 @@
-export default [
+const data = [
   {
     id: 1,
     name: "Jenn",
     email: "jenn@fakemail.com",
-    role: "student"
+    role: "Student"
   }
 ];
+export default data;

@@ -47,13 +47,16 @@ const Form = props =>{
             </div>
             <div className="formComponent">
               <label htmlFor="role">Role</label>
-              <input
+              <select
                 type="text"
                 name="role"
                 placeholder="Type role here"
                 value={team.role}
-                onChange={changeHandler}
-              />
+                onChange={changeHandler}>
+                  <option value="Student">Student</option>
+                  <option value="Instructor">Instructor</option>
+                  <option value="Team Lead">Team Lead</option>
+              </select>
             </div>
           </div>
         </div>
@@ -85,13 +88,20 @@ const StyledDiv = styled.div `
   .formComponent{
     margin: 10% 0%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     label{
       margin: 0 10%;
     }
     input{
       font-size: 1rem;
+      border-radius: 5px;
+    }
+    select{
+      width: 100%;
+      font-size: 1rem;
+      border-radius: 5px;
+      text-align: center;
     }
   }
 
