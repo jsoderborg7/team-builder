@@ -30,9 +30,11 @@ const StyledDiv = styled.div `
 
   h1{
     text-align: center;
+    text-decoration: underline;
   }
   h2{
     text-align: center;
+    text-decoration: underline;
   }
 
   .team-list{

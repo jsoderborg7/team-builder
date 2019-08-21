@@ -94,7 +94,6 @@ const StyledDiv = styled.div `
       border-radius: 5px;
       background-color: #72d4e8;
       padding: 2%;
-      color: white;
     }
     input{
       font-size: 1rem;
@@ -117,7 +116,6 @@ const StyledDiv = styled.div `
       padding: 3%;
       font-size: 1.5rem;
       background-color: #72d4e8;
-      color: white;
     }
   }
 `;
