@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 const TeamList = props =>{
   console.log(props);
@@ -16,3 +16,5 @@ const TeamList = props =>{
     </div>
   )
 }
+
+export default TeamList;
