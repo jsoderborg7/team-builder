@@ -73,11 +73,9 @@ export default Form;
 const StyledDiv = styled.div `
   margin: auto;  
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
-  padding: 0 5%;
 
   .form{
     display: flex;
@@ -92,6 +90,11 @@ const StyledDiv = styled.div `
 
     label{
       margin: 0 10%;
+      border: 2px solid white;
+      border-radius: 5px;
+      background-color: #72d4e8;
+      padding: 2%;
+      color: white;
     }
     input{
       font-size: 1rem;
@@ -110,9 +113,11 @@ const StyledDiv = styled.div `
 
     button{
       border-radius: 10px;
+      border: 2px solid white;
       padding: 3%;
       font-size: 1.5rem;
       background-color: #72d4e8;
+      color: white;
     }
   }
 `;

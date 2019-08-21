@@ -28,7 +28,9 @@ const StyledDiv = styled.div `
  justify-items: space-evenly;
 
  .team{
-   border: 2px solid #72d4e8;
+   border: 2px solid white;
+   background-color: #72d4e8;
+   opacity: .7;
    border-radius: 10px;
    width: 35%; 
    margin: 5%;
