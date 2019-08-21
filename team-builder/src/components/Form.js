@@ -117,6 +117,10 @@ const StyledDiv = styled.div `
       font-size: 1.5rem;
       background-color: #72d4e8;
     }
+    button:hover{
+      background-color: white;
+      border: 2px solid #72d4e8;
+    }
   }
 `;
 
