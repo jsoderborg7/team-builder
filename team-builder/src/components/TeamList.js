@@ -30,12 +30,13 @@ const StyledDiv = styled.div `
  .team{
    border: 2px solid white;
    background-color: #72d4e8;
-   opacity: .7;
+   opacity: .75;
    border-radius: 10px;
    width: 35%; 
    margin: 5%;
    padding: 2%;
    text-align: center;
+   box-shadow: 5px 5px;
 
 
  }

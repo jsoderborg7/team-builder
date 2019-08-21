@@ -93,22 +93,27 @@ const StyledDiv = styled.div `
       border: 2px solid white;
       border-radius: 5px;
       background-color: #72d4e8;
-      padding: 2%;
+      padding: 2% 5%;
+      box-shadow: 3px 3px;
     }
     input{
       font-size: 1rem;
       border-radius: 5px;
+      box-shadow: 3px 3px;
+      text-align: center;
     }
     select{
       width: 100%;
       font-size: 1rem;
       border-radius: 5px;
-      text-align: center;
+      box-shadow: 3px 3px;
     }
   }
 
   .button{
     margin: 0 10%;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
 
     button{
       border-radius: 10px;
