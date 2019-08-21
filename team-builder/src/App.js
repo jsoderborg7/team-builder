@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import TeamList from './components/TeamList';
+import Form from './components/Form';
+import data from './data';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [teams, setTeams] = useState(data);
+  const addNewTeam = team =>{
+    setTeams([...teams, team]);
+  };
+  return(
+    <div className='app'>
+      <h1>My Team</h1>
+      <Form addNewTeam={addNewTeam} />
+      <TeamList teamList={teams} />
     </div>
   );
-}
+};
 
 export default App;
